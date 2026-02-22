@@ -95,7 +95,7 @@ Tripadvisor-clone/
 
 Clone the repository:
 
-git clone https://github.com/your-username/Tripadvisor-clone.git
+https://github.com/daveena-navarathnam/Tripadvisor-clone.git
 
 Open index.html in your browser.
 
