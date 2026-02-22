@@ -1,41 +1,41 @@
-Tripadvisor Clone 🌍
+🌍 Tripadvisor Homepage Clone
 
-A responsive Tripadvisor landing page clone built using HTML5 and CSS3.
-This project focuses on layout structure, semantic HTML, Flexbox, and responsive design principles.
+A responsive front-end recreation of the Tripadvisor homepage built using HTML5 and CSS3.
 
-📌 Project Overview
+This project focuses on layout architecture, responsive design patterns, and real-world UI replication to strengthen core front-end development skills.
 
-This project replicates the main homepage layout of Tripadvisor, including:
+🚀 Live Demo
+
+🔗 Live Site:
+https://daveena-navarathnam.github.io/Tripadvisor-clone/
+
+
+🧠 Project Overview
+
+This project replicates the core layout and visual structure of the Tripadvisor homepage, including:
 
 Responsive navigation bar
 
-Search section with styled input field
+Category-based search navigation
 
-Insights promotional banner
+Styled search input component
 
-Interests section
+Promotional insights banner
 
-Explore experiences cards
+Card-based content sections
 
-Inspiration section
+Multi-column structured footer
 
-Whale tour section
+Adaptive layouts for tablet and mobile screens
 
-Community information block
+The primary goal was to practice real-world layout building and responsive UI behavior using only HTML and CSS (no frameworks).
 
-Multi-column footer
 
-The design adapts to:
+🛠️ Tech Stack
 
-💻 Desktop screens
+Frontend
 
-📱 Tablet screens (1024px)
-
-📱 Mobile screens (768px and below)
-
-🛠️ Built With
-
-HTML5 (Semantic structure)
+HTML5 (Semantic Structure)
 
 CSS3
 
@@ -43,43 +43,52 @@ Flexbox
 
 Media Queries
 
+Assets & Tools
+
 Google Fonts (Poppins)
 
 Font Awesome Icons
 
-📱 Responsive Design
+Git & GitHub
 
-Media queries are implemented at:
+GitHub Pages (Deployment)
+
+
+📱 Responsive Strategy
+
+The layout adapts using a desktop-first approach with breakpoints at:
 
 max-width: 1024px (Tablet)
 
 max-width: 768px (Mobile)
 
-Layout adjustments include:
+Responsive improvements include:
 
 Navigation collapsing into icons
 
-Grid sections stacking vertically
+Card layouts stacking vertically
 
-Search button behavior changes on smaller screens
+Search button behavior adapting for mobile
 
-Text and image resizing for better readability
+Image resizing with aspect-ratio and object-fit
 
-🎯 Learning Goals
+Flexible containers using flex-wrap
 
-This project was created to practice:
+Controlled width using max-width containers
 
-Semantic HTML structure
 
-Flexbox layouts
+🏗️ Architecture & Layout Decisions
 
-Responsive web design
+Used reusable card structures for explore, inspiration, and whale sections
 
-UI cloning from an existing website
+Implemented centralized container widths (max-width) for consistent alignment
 
-Clean CSS organization
+Used Flexbox for layout control instead of Grid to strengthen Flexbox mastery
 
-Git & GitHub workflow
+Maintained semantic section grouping for better structure and readability
+
+Structured CSS logically by component blocks
+
 
 📂 Project Structure
 Tripadvisor-clone/
@@ -91,20 +100,44 @@ Tripadvisor-clone/
 ├── inspiration images/
 ├── intrest images/
 ├── whale images/
-🚀 How to Run
 
-Clone the repository:
+🎯 Key Learning Outcomes
 
-https://github.com/daveena-navarathnam/Tripadvisor-clone.git
+Improved understanding of responsive design principles
 
-Open index.html in your browser.
+Gained experience replicating a real production website layout
+
+Learned to manage spacing and alignment across breakpoints
+
+Practiced Flexbox deeply (wrapping, basis, grow, alignment)
+
+Strengthened Git workflow and deployment process
+
+
+🚧 Future Improvements
+
+Improve mobile navigation with dropdown menu
+
+Add hover animations and micro-interactions
+
+Convert layout to CSS Grid where appropriate
+
+Optimize images for performance
+
+Refactor into component-based structure
+
+Add accessibility improvements (ARIA roles, alt attributes)
+
+Implement JavaScript for search interaction
+
 
 ⚠️ Disclaimer
 
-This project is for educational purposes only.
-It is a front-end clone and is not affiliated with or endorsed by Tripadvisor.
+This project is created strictly for educational purposes.
+It is not affiliated with or endorsed by Tripadvisor.
+
 
 👩‍💻 Author
 
-Created by Daveena Navarathnam
-Frontend Developer (Beginner Level Project)
+Daveena Navarathnam
+Aspiring Frontend Developer
